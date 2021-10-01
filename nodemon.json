@@ -1,0 +1,4 @@
+{
+    "watch": ["variablesOPC.xlsx", "config/"],
+    "ext": "xlsx"
+  }

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>NARRU-Conexión</title>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+   
+    <div class="wrapper">
+       <div class="section">
+    <div class="top_navbar">
+      <div class="hamburger">
+        <a href="#">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+        <ul>
+            <li class="conexion"> 
+                <div class="bottom">AMR 1</div>
+                <div class="robot_conexion">
+                    <button class="boton" id="boton1" style="margin-left: 50px;">CONECTAR AMR 1</button>
+                </div>
+            </li>
+            <li class="conexion"> 
+                <div class="bottom">AMR 2</div>
+                <div class="robot_conexion">
+                    <button class="boton" id="boton2" style="margin-left: 50px;">CONECTAR AMR 2</button>
+                </div>
+            </li>
+            <li class="conexion vacio2"> 
+
+            </li>
+            <li class="conexion vacio2"> 
+
+            </li>
+            <li class="conexion vacio2"> 
+
+            </li>
+            <li class="conexion vacio2"> 
+
+            </li>
+            <li class="conexion vacio2"> 
+
+            </li>
+            <li class="conexion vacio2"> 
+
+            </li>
+            <li class="conexion vacio2"> 
+
+            </li>
+        </ul>
+
+    </div>
+
+  </div>
+  <div class="sidebar">
+    <div class="profile">
+        <img src="images/Narru logo.jpg" alt="profile_picture">
+        <!-- <h3>CANVAS digital brain</h3> -->
+    </div>
+    <ul>
+        <li>
+            <a href="conexion.html" class="active">
+                <span class="icon"><i class="fas fa-wifi"></i></span>
+                <span class="item">Conexión</span>
+            </a>
+        </li>
+        <li>
+            <a href="estado.html">
+                <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+                <span class="item">Estado de AMR</span>
+            </a>
+        </li>
+        <li>
+            <a href="index.html">
+                <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                <span class="item">Selección Destino</span>
+            </a>
+        </li>
+        <li>
+            <a href="alarmas.html">
+                <span class="icon"><i class="fas fa-exclamation-triangle"></i></span>
+                <span class="item">Alarmas</span>
+            </a>
+        </li>
+    </ul>
+    <img src="images/Logo LINQ negativo.png" alt="" width="40%" style="margin:50px;margin-top: 180px;">
+</div>
+        
+    </div>
+ 
+    <script src="js/script1.js"></script>
+    <script src="js/script_conexion.js"></script>
+</body>
+</html>

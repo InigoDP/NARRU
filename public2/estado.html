@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://css.gg/battery.css' rel='stylesheet'>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>NARRU-Estado</title>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+   
+    <div class="wrapper">
+       <div class="section">
+    <div class="top_navbar">
+      <!-- <div class="hamburger">
+        <a href="#">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div> -->
+    </div>
+
+    <div class="container">
+        <ul>
+            <li> 
+                <div class="bottom">AMR 1
+                    <span id="bateria">Batería: </span>
+                    <!-- <span class="icon"><i class="fas fa-battery-full" style="color: rgb(13, 175, 35)"></i></span> -->
+                    <span class="icon"><i class="fas fa-wifi" id="icono-wifi"></i></span>
+                </div>
+                <div class="robot_info">
+                    <img class="ldgreen" id="robot1" src="images/AMR_Circular.svg" alt="">
+                    <div class="robot_status">
+                        Estado Robot: <span id="estado">-</span>
+                    </div>
+                    <div class="robot_status">
+                        Localización: <span id="localizacion">-</span>
+                    </div>
+                </div>
+            </li>
+            <li> 
+                <div class="bottom">AMR 2
+                    <span id="bateria">Batería: </span>
+                    <!-- <span class="icon"><i class="fas fa-battery-half" style="color: orange;"></i></span> -->
+                    <span class="icon"><i class="fas fa-wifi"></i></span>
+                </div>
+                <div class="robot_info">
+                    <img class="ldgray" src="images/Picture1.jpg" alt="">
+                    <div class="robot_status">
+                        Estado Robot:
+                    </div>
+                    <div class="robot_status">
+                        Localizacion:
+                    </div>
+                </div>
+            </li>
+            <li class="robot_info"> 
+
+            </li>
+            <li class="robot_info">  
+
+            </li>
+            <li class="robot_info"> 
+
+            </li>
+            <li class="robot_info"> 
+
+            </li>
+            <li class="robot_info"> 
+
+            </li>
+            <li class="robot_info"> 
+
+            </li>
+            <li class="robot_info"> 
+
+            </li>
+        </ul>
+    </div>
+
+  </div>
+        <div class="sidebar">
+            <div class="profile">
+                <img src="images/Narru logo.jpg" alt="profile_picture">
+                <!-- <h3>CANVAS digital brain</h3> -->
+            </div>
+            <ul>
+                <!-- <li>
+                    <a href="conexion.html">
+                        <span class="icon"><i class="fas fa-wifi"></i></span>
+                        <span class="item">Conexión</span>
+                    </a>
+                </li> -->
+                <li>
+                    <a href="estado.html" class="active">
+                        <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+                        <span class="item">Estado de AMR</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                        <span class="item">Selección Destino</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="alarmas.html">
+                        <span class="icon"><i class="fas fa-exclamation-triangle"></i></span>
+                        <span class="item">Alarmas</span>
+                    </a>
+                </li>
+            </ul>
+            <img src="images/Logo LINQ negativo.png" alt="" width="40%" style="margin:50px;margin-top: 180px;">
+        </div>
+        
+    </div>
+ 
+    <script src="js/script1.js"></script>
+    <script src="js/script_estado.js"></script>
+</body>
+</html>

@@ -136,7 +136,7 @@ body.active .wrapper .section{
   float:left;
   list-style: none;
   width:25%;
-  height:350px;
+  height:400px;
   margin :20px 0px 20px 75px; 
   border:4px solid rgb(208, 208, 221);
   box-sizing: border-box;
@@ -345,8 +345,8 @@ body.active .wrapper .section{
   font-weight: 600;
   justify-content: center;
   line-height: 20px;
-  width: 100px;
-  height: 40px;
+  width: 95px;
+  height: 50px;
   min-width: 0px;
   overflow: hidden;
   padding: 0px;
@@ -358,7 +358,7 @@ body.active .wrapper .section{
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
-  margin: 5px 25px 5px 5px;
+  margin: 8px 5px 15px 5px;
 }
 
 .boton2:hover,
@@ -382,8 +382,8 @@ body.active .wrapper .section{
   font-weight: 600;
   justify-content: center;
   line-height: 20px;
-  width: 90px;
-  height: 40px;
+  width: 95px;
+  height: 50px;
   min-width: 0px;
   overflow: hidden;
   padding: 0px;
@@ -395,7 +395,7 @@ body.active .wrapper .section{
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
-  margin: 5px 5px 5px 5px;
+  margin: 8px 5px 15px 5px;
 }
 
 .boton3:hover,
@@ -415,12 +415,12 @@ body.active .wrapper .section{
   cursor: pointer;
   display: inline-flex;
   font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   justify-content: center;
   line-height: 20px;
-  width: 100px;
-  height: 40px;
+  width: 200px;
+  height: 50px;
   min-width: 0px;
   overflow: hidden;
   padding: 0px;
@@ -432,7 +432,7 @@ body.active .wrapper .section{
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
-  margin: 5px 5px 5px 15px;
+  margin: 8px 5px 15px 5px;
 }
 
 .boton4:hover,

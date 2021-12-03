@@ -5,6 +5,7 @@ let estado = document.getElementById('estado');
 let robot1 = document.getElementById('robot1');
 let localizacion = document.getElementById('localizacion');
 let iconoWifi = document.getElementById('icono-wifi');
+let botonDock = document.getElementById('botonDock');
 
 //Lectura de la variable 1 (estado de Robot 1)
 
@@ -68,6 +69,15 @@ robot1.addEventListener('click',()=>{
     value:true
   });
 })
+
+botonDock.addEventListener('click',()=>{
+  console.log('Docking')
+  socket.emit('dock',{
+    value:true
+  });
+})
+
+
 
 
 

@@ -17,15 +17,14 @@ let botonMesa7 = document.getElementById('botonMesa7');
 let botonMesa8 = document.getElementById('botonMesa8');
 let botonCancelarTrabajo = document.getElementById('botonCancelarTrabajo');
 let botonDock = document.getElementById('botonDock');
-let dot = document.getElementById("dot");
-let map = document.getElementById('map');
-let arrow = document.getElementById('arrow');
 
 let seleccionado = 0;
 
 botonConfirmar.style.backgroundColor = '#ddd3d3';
 botonCancelar.style.display = 'none';
 botonEntrega.style.display = 'none';
+
+
 
 
 botonCocina.addEventListener('click', () => {
@@ -366,25 +365,6 @@ botonCancelar.addEventListener('click', () => {
     botonCancelar.style.display = 'none';
 
     console.log('CANCELAR');
-})
-
-socket.on('posX', (data) => {
-
-    dot.style.marginTop = `${((data.value + 3900)/30) - 15 }px`;
-
-})
-
-socket.on('posY', (data) => {
-
-    dot.style.marginLeft = `${((data.value + 5505)/28) - 15 }px`;
-
-})
-
-socket.on('heading', (data) => {
-
-  console.log(data.value);
-  arrow.style.transform = `rotate(${+135-data.value}deg)`
-
 })
 
 socket.on('string', function (data) {
